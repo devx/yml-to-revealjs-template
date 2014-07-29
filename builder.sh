@@ -18,7 +18,10 @@ if [ -d revelator ]; then
 else
   echo "******** Downloading Revelator ********"
   git clone https://github.com/mpdehaan/revelator.git
-  ln -fs revelator/reveal_js_261
+  git clone https://github.com/hakimel/reveal.js reveal_js_261
+  echo "Removing reveal.js README so it does not overwrite projects README"
+  rm reveal_js_261/README.md
+
 fi
 
 echo "******** Looping over folders ********"
