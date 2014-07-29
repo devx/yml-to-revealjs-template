@@ -1,0 +1,35 @@
+---
+header:
+  author: Victor Palma
+  title: Section Two - Chapter 1, Sample Chapter 1
+  description: Section Two - Contents for Chapter 1
+
+slides:
+
+   - set_global:
+       transition: none
+       background: '#e07777'
+
+   -
+     - nested:
+         -
+           - h1: Section Two = First Page?
+           - ul:
+             - Efficient
+
+         -
+           - h2: Section two = Second Page
+           - p: 'Simple paragraph that contains some sample data'
+           - ul:
+             - sysadmins
+             - developers
+             - IT managers
+           - p: It's easy to write, read, maintain, and evolve
+         -
+           - h2: Section Two = Fast
+           - p: Ansible is easy to learn.
+           - p: Setup is fast.
+           - class_notes: |
+               1. You can automate in under 30 minutes. Forget about how it works, just do it.
+               2. No agents. SSH keys are typically already in place.
+         -

@@ -1,0 +1,19 @@
+---
+header:
+  author: Victor Palma
+  title: Chapter 2
+  description: Content for Chapter 2
+
+slides:
+  - set_global:
+      transition: none
+  -
+    - nested:
+      -
+        - h1: Chapter 2 first page
+        - p: First Page
+
+      -
+        - h2: Page2
+        - code: |
+            echo "some Code"

@@ -1,0 +1,33 @@
+---
+header:
+  author: Victor Palma
+  title: Chapter 1, Sample Chapter 1
+  description: Contents for Chapter 1
+
+slides:
+
+   - set_global:
+       transition: none
+       background: '#e07777'
+
+   -
+     - nested:
+         -
+           - h1: First Page?
+           - ul:
+             - Efficient
+
+         -
+           - h2: Second Page
+           - p: 'Simple paragraph that contains some sample data'
+           - ul:
+             - sysadmins
+             - developers
+             - IT managers
+         -
+           - h2: Fast
+           - p: Easy to create new content
+           - p: Setup is fast.
+           - class_notes: |
+               1. your sample notes
+               2. Stuff that you want to touch on.
